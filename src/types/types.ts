@@ -1,6 +1,5 @@
 export type Region = "EU" | "NA" | "BR" | "LATAM" | "ASIA";
 export type TimeSlot = "Mornings" | "Afternoons" | "Nights" | "Weekends";
-export type BannerTheme = "light-gray" | "dark" | "midnight-purple" | "sunset" | "cyberpunk-blue";
 
 export type ValorantRank = "Iron" | "Bronze" | "Silver" | "Gold" | "Platinum" | "Diamond" | "Ascendant" | "Immortal" | "Radiant";
 export type ValorantRole = "Duelist" | "Initiator" | "Controller" | "Sentinel";
@@ -51,7 +50,6 @@ export interface UserProfile {
     bio: string;
     age: number;
     region: Region;
-    banner: BannerTheme;
     userMic: boolean;
     languages: string[];
     availability: TimeSlot[];
