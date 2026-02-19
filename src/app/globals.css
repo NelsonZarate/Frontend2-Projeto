@@ -9,6 +9,7 @@
 @theme inline {
   --font-sans: "Inter", sans-serif;
   --font-display: "Chakra Petch", sans-serif;
+  --font-start: 'Press Start 2P', cursive;
   --font-bitcount: "Bitcount Grid Double", system-ui;
 
   --radius-sm: calc(var(--radius) - 4px);
@@ -89,7 +90,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #0f1014;
+  --background: #241d27;
   --foreground: #a097a3;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
